@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.073c9b0a.css",
-    "main.js": "/react-gh-pages/static/js/main.67e5160a.js",
-    "static/js/787.c1112931.chunk.js": "/react-gh-pages/static/js/787.c1112931.chunk.js",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.073c9b0a.css.map": "/react-gh-pages/static/css/main.073c9b0a.css.map",
-    "main.67e5160a.js.map": "/react-gh-pages/static/js/main.67e5160a.js.map",
-    "787.c1112931.chunk.js.map": "/react-gh-pages/static/js/787.c1112931.chunk.js.map"
+    "main.css": "/static/css/main.b0c4bee5.css",
+    "main.js": "/static/js/main.909b4925.js",
+    "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
+    "static/media/hairstyle-classifier.md": "/static/media/hairstyle-classifier.4e5cc6d4b245f72e0479.md",
+    "static/media/aristotle.svg": "/static/media/aristotle.974ca2c4f699881ddeed530ad4b65d5b.svg",
+    "static/media/cv.md": "/static/media/cv.69b7d59cd6170e2efc94.md",
+    "index.html": "/index.html",
+    "static/media/about.md": "/static/media/about.69f5edee4a7eef85516f.md",
+    "main.b0c4bee5.css.map": "/static/css/main.b0c4bee5.css.map",
+    "main.909b4925.js.map": "/static/js/main.909b4925.js.map",
+    "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.67e5160a.js"
+    "static/css/main.b0c4bee5.css",
+    "static/js/main.909b4925.js"
   ]
 }
