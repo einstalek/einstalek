@@ -1,0 +1,8 @@
+{
+    "posts": [
+      { "id": "hairstyle-classifier", "date": "12 Nov 2023", 
+      "title": "How To Visually Evaluate Image Classifier Using StyleGAN2", 
+      "description": "In this article, we’ll be evaluating image classifiers by exploring StyleGAN2 latent space. In our case, we’ll look at the performance of the hairstyle classifier that we use in Ready Player Me." }
+    ]
+}
+  
