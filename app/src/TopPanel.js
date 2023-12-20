@@ -11,6 +11,8 @@ import IconButton from '@mui/material/IconButton';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 
+import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import { ReactComponent as Logo } from "./aristotle.svg";
 
@@ -18,6 +20,9 @@ const pages = [['Blog', '/'], ['CV', '/cv']];
 
 
 function TopPanel({darkMode, setDarkMode}) {
+    const currentPath = useLocation().pathname;
+
+
     return (
         <Box>
             <AppBar position="static" style={{ color: 'inherit', 
@@ -29,7 +34,6 @@ function TopPanel({darkMode, setDarkMode}) {
 
                     <SvgIcon 
                         fontSize='large' 
-                        sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} 
                         component={Logo} inheritViewBox 
                     />
 
@@ -40,9 +44,8 @@ function TopPanel({darkMode, setDarkMode}) {
                         href="/"
                         sx={{
                         mr: 2,
-                        display: { xs: 'none', md: 'flex' },
                         fontFamily: 'monospace',
-                        fontWeight: 700,
+                        fontWeight: 500,
                         letterSpacing: '.1rem',
                         color: 'inherit',
                         textDecoration: 'none',
@@ -66,14 +69,13 @@ function TopPanel({darkMode, setDarkMode}) {
                                 mr: 2,
                                 display: { xs: 'none', md: 'flex' },
                                 fontFamily: 'monospace',
-                                fontWeight: 700,
+                                fontWeight: 500,
                                 letterSpacing: '.1rem',
                                 color: 'inherit',
-                                textDecoration: 'none',
+                                textDecoration: link === currentPath ? "underline": "none"
                                 }}
                             >
                                 {page}
-
                             </Typography>
 
                         </Button>

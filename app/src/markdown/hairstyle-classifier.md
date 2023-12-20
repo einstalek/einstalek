@@ -1,4 +1,4 @@
-# How to Visually Evaluate Image Classifier Using StyleGAN2
+# How To Visually Evaluate Image Classifier Using StyleGAN2
 
 *29 March, 2022*
 
@@ -53,7 +53,7 @@ After running tuning for multiple classes, we can now check how well we managed 
 Combining these sequences of images into GIFs, we got something like this for the “curly bob with fringe” class:
 
 <div style="text-align:center; margin-top: 20px; margin-bottom: 20px;">
-    <img src="https://assets-global.website-files.com/647a5cfe9ae504d687e5d999/647fbc1d99d20d55ab083fd6_Interpolation-wplus.gif" alt="alt text" width="100%"/>
+    <img src="https://assets-global.website-files.com/647a5cfe9ae504d687e5d999/647fbc1d99d20d55ab083fd6_Interpolation-wplus.gif" alt="alt text" width="80%"/>
     <figcaption> *Interpolation in W+ space for "curly bob with fringe" hairstyle* </figcaption>
 </div>
 
@@ -62,7 +62,7 @@ Remember, we got these results simply by maximizing our classifier’s probabili
 Let’s see the same kind of visualizations for one more class, long straight hair with fringe:
 
 <div style="text-align:center; margin-top: 20px; margin-bottom: 20px;">
-    <img src="https://assets-global.website-files.com/647a5cfe9ae504d687e5d999/647fbd84fb33f6c5f768c590_interpolation-wplus-2.gif" alt="alt text" width="100%"/>
+    <img src="https://assets-global.website-files.com/647a5cfe9ae504d687e5d999/647fbd84fb33f6c5f768c590_interpolation-wplus-2.gif" alt="alt text" width="80%"/>
     <figcaption> *Interpolation in W+ space for "long straight with fringe" hairstyle* </figcaption>
 </div>
 
@@ -71,7 +71,7 @@ These are both classes that our hairstyle model seems to have learned correctly.
 But of course, sometimes models overfit or learn to detect something else but the real target features. To illustrate one of those cases, let’s look at interpolation examples for a class of “long African braids”.
 
 <div style="text-align:center; margin-top: 20px; margin-bottom: 20px;">
-    <img src="https://assets-global.website-files.com/647a5cfe9ae504d687e5d999/647fbe5d7ca5e3200ced940f_ezgif.com-optimize.gif" alt="alt text" width="100%"/>
+    <img src="https://assets-global.website-files.com/647a5cfe9ae504d687e5d999/647fbe5d7ca5e3200ced940f_ezgif.com-optimize.gif" alt="alt text" width="80%"/>
     <figcaption> *Interpolation in W+ space for "long African braids" hairstyle* </figcaption>
 </div>
 
