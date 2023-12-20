@@ -2,16 +2,17 @@ import TopPanel from "./TopPanel";
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import PostGrid from "./PostGrid";
 import CV from "./CV";
 import Post from "./Post";
 import About from "./About";
 
 import {
-    Routes, 
-    BrowserRouter,
-    Route, Navigate
+    Routes,
+    BrowserRouter as Router,
+    Route, 
+    Navigate
   } from "react-router-dom";
 
 function Home() {
@@ -30,14 +31,6 @@ function Home() {
     useEffect(() => {
          localStorage.setItem('darkMode', JSON.stringify(darkMode));
     }, [darkMode]);
-
-    useEffect(() => {
-      const context = require.context('./markdown/', false, /\.md$/);
-      const files = context.keys().map((key) => {
-        const fileName = key.replace('./', '');
-        return { fileName };
-      });
-    }, []);
 
     const darkTheme = createTheme({
         palette: {
@@ -62,9 +55,8 @@ function Home() {
     return (
       <ThemeProvider theme={darkTheme}>
           <CssBaseline />
-          <div className="Home">
-              <BrowserRouter>
-                
+          <Router>
+          <div className="Home">                
                 <div>
                   <TopPanel darkMode={darkMode} setDarkMode={setDarkMode}/>
                   
@@ -82,11 +74,9 @@ function Home() {
                       <Route path="/cv" element={<CV />} />
                       <Route path="/" element={<Navigate to="/blog" />} />
                   </Routes>
-
                 </div>
-
-              </BrowserRouter>
           </div>
+          </Router>
       </ThemeProvider>
   )
 }

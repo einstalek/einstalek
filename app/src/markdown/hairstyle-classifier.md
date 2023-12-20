@@ -2,7 +2,7 @@
 
 *29 March, 2022*
 
-In this article, we’ll be evaluating image classifiers by exploring StyleGAN2 latent space. In our case, we’ll look at the performance of the hairstyle classifier that we use in Ready Player Me.
+In this article, we’ll be evaluating an image classifier by exploring StyleGAN2 latent space. We’ll look at the performance of a hairstyle classifier that we use in [Ready Player Me](https://readyplayer.me/).
 
 StyleGAN2 is a generative model architecture demonstrating state-of-the-art image generation. Code of the model and pre-trained weights can be found, for example, in this [repo](https://github.com/rosinality/stylegan2-pytorch), alongside generated examples across various domains.
 
