@@ -1,5 +1,8 @@
 {
     "posts": [
+      {"id": "sds-head-shape", "date": "4 Jan 2024", 
+      "title": "Using Stable Diffusion To Tune 3D Morphable Model", "description": 
+      "Going over SDS proposed in DreamFusion. Let's use a diffusion model and a morphable head model to create 3D heads fitting some text descriptions."},
       { "id": "hairstyle-classifier", "date": "12 Nov 2023", 
       "title": "How To Visually Evaluate Image Classifier Using StyleGAN2", 
       "description": "In this article, we’ll be evaluating an image classifier by exploring StyleGAN2 latent space. We’ll look at the performance of a hairstyle classifier that we use in Ready Player Me." },

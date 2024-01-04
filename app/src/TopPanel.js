@@ -11,7 +11,6 @@ import IconButton from '@mui/material/IconButton';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 
-import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { ReactComponent as Logo } from "./aristotle.svg";
