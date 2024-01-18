@@ -1,5 +1,8 @@
 {
     "posts": [
+      {"id": "sds-faceg2e", "date": "18 Jan 2024", 
+      "title": "Text-Guided 3D Face Synthesis: Paper Break-Down", "description": 
+      "I want to revisit Score Samping Distillation (SDS) for 3D head synthesis. Having recently found paper about it, I discovered several ideas on how to properly generate textures with SDS. In my previous post on this topic I was mentioning that it was particularly complicated to generate clean face textures."},
       {"id": "sds-head-shape", "date": "4 Jan 2024", 
       "title": "Using Stable Diffusion To Tune 3D Morphable Model", "description": 
       "Going over SDS proposed in DreamFusion. Let's use a diffusion model and a morphable head model to create 3D heads fitting some text descriptions."},
