@@ -11,7 +11,10 @@
       "description": "In this article, we’ll be evaluating an image classifier by exploring StyleGAN2 latent space. We’ll look at the performance of a hairstyle classifier that we use in Ready Player Me." },
       {"id": "auvnet-2d", "date": "18 May 2023", 
       "title": "AUV-Net: Paper Break-down, Part 1", "description": 
-      "Aligning mesh textures with different topologies could be a fantastic feature for any 3D project. This would unlock numerous possibilities, such as texture transfer or novel texture generation. That’s precisely what the AUV-Net paper by Nvidia addresses. Let’s review the paper to understand its primary concepts."}
+      "Aligning mesh textures with different topologies could be a fantastic feature for any 3D project. This would unlock numerous possibilities, such as texture transfer or novel texture generation. That’s precisely what the AUV-Net paper by Nvidia addresses. Let’s review the paper to understand its primary concepts."},
+      {"id": "neck-seam", "date": "10 Aug 2024", 
+      "title": "Eliminating Seams: Joining Separate Meshes with Blender", "description": 
+      "I recently encountered a problem working with 3D avatars: having a custom-generated head mesh, I needed to merge it seamlessly with the avatar's body. And since you can't go around asking 3D artists to do their magic all the time, here I suggest a simple solution for this type of problem."}
     ]
 }
   
