@@ -34,6 +34,7 @@ Contributed to a pattern recognition in point-based images project by introducin
 - **Bachelor Degree** in Applied Mathematics and Physics (2013 - 2017)
 - **Master Degree** in Applied Mathematics and Informatics (2017 - 2019)
 - **Languages**: English (fluent), Russian (native), French (B1).
+
 ---
 
 ## SKILLS
