@@ -19,7 +19,7 @@ Improving visual quality and recognisability of 3D avatars
 
 
 ### **Junior Software Engineer, MIPT**  (2015 - 2017)
-Contributed to a pattern recognition in point-based images project by introducing statistical analysis.
+- Contributed to a pattern recognition in point-based images project by introducing statistical analysis.
 
 ---
 
