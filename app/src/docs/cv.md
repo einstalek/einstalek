@@ -22,6 +22,7 @@ Improving visual quality and recognisability of 3D avatars
 Contributed to a pattern recognition in point-based images project by introducing statistical analysis.
 
 ---
+
 ## PUBLICATIONS
 - [Geometry Aware Texturing](https://dl.acm.org/doi/abs/10.1145/3610542.3626152)
     A novel approach is proposed to texture generation, making use of recent advancements in Latent Diffusion models.
