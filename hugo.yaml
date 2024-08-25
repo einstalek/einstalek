@@ -1,0 +1,43 @@
+baseURL: https://einstalek.github.io/
+languageCode: en-us
+title: Underground Notes
+
+mainsections: ["posts"]
+
+theme: ["PaperMod"]
+enableEmoji: true
+
+params:
+  defaultTheme: auto
+  ShowToc: true
+  ShowPageNums: true
+  ShowReadingTime: true
+
+  homeInfoParams:
+    Title: 👋 Welcome to my little blog!
+    Content: "Hi, I’m Alex. This is where I jot down my thoughts on the things I work with, the topics I learn about, or anything that keeps occupying my mind."
+
+  socialIcons: # optional
+  - name: "email"
+    url: "mailto:einstalek@gmail.com"
+  - name: "linkedin"
+    url: "https://www.linkedin.com/in/alexander-arganaidi/"
+  - name: "github"
+    url: "https://github.com/einstalek/"
+  - name: "x"
+    url: "https://x.com/arganbanan/"
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1

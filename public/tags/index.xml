@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Underground Notes</title>
+    <link>https://einstalek.github.io/tags/</link>
+    <description>Recent content in Tags on Underground Notes</description>
+    <generator>Hugo -- 0.133.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://einstalek.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3d</title>
+      <link>https://einstalek.github.io/tags/3d/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blender</title>
+      <link>https://einstalek.github.io/tags/blender/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/blender/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geometry</title>
+      <link>https://einstalek.github.io/tags/geometry/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/geometry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Controlnet</title>
+      <link>https://einstalek.github.io/tags/controlnet/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/controlnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diffusion</title>
+      <link>https://einstalek.github.io/tags/diffusion/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/diffusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Latent</title>
+      <link>https://einstalek.github.io/tags/latent/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/latent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paper</title>
+      <link>https://einstalek.github.io/tags/paper/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/paper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sds</title>
+      <link>https://einstalek.github.io/tags/sds/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/sds/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Texture</title>
+      <link>https://einstalek.github.io/tags/texture/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/texture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Classifier</title>
+      <link>https://einstalek.github.io/tags/classifier/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/classifier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gan</title>
+      <link>https://einstalek.github.io/tags/gan/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/gan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alignment</title>
+      <link>https://einstalek.github.io/tags/alignment/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/alignment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pca</title>
+      <link>https://einstalek.github.io/tags/pca/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://einstalek.github.io/tags/pca/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
