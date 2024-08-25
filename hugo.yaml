@@ -17,7 +17,7 @@ params:
     Title: 👋 Welcome to my little blog!
     Content: "Hi, I’m Alex. This is where I jot down my thoughts on the things I work with, the topics I learn about, or anything that keeps occupying my mind."
 
-  socialIcons: # optional
+  socialIcons:
   - name: "email"
     url: "mailto:einstalek@gmail.com"
   - name: "linkedin"
