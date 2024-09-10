@@ -37,7 +37,3 @@ menu:
       name: CV
       url: /cv/
       weight: 1
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 1
